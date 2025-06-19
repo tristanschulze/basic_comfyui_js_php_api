@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ComfyUI API with basic JS/PHP - TXT2IMG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       
+        
+        <div class="input-group">
+            <label for="prompt">Enter your prompt:</label>
+            <input type="text" id="prompt" value="beautiful scenery nature glass bottle landscape">
+            <button id="generate-btn">Generate Image</button>
+        </div>
+        
+        <div class="result-container">
+            <h2>Generated Image:</h2>
+            <div class="image-container">
+                <img id="generated-image" alt="Generated image will appear here">
+            </div>
+            <div id="status" class="status-ready">Ready to generate</div>
+        </div>
+
+        <div class="debug-console">
+            <h3>Debug Console:</h3>
+            <div id="debug-messages"></div>
+            <button id="clear-debug">Clear Console</button>
+        </div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>
