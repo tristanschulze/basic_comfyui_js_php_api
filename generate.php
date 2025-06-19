@@ -12,7 +12,7 @@ if (!isset($_POST['prompt'])) {
 }
 
 $prompt = $_POST['prompt'];
-$comfyuiApiUrl = 'https://seeds-alarm-cases-accommodation.trycloudflare.com/prompt';
+$comfyuiApiUrl = 'https://YOUR_COMFY_UI_API_ENDPOINT/prompt';
 
 // Prepare the generation workflow
 $workflow = [
