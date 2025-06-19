@@ -137,7 +137,7 @@ class ImageGenerator {
                 return;
             }
             
-            const wsUrl = 'wss://seeds-alarm-cases-accommodation.trycloudflare.com/ws';
+            const wsUrl = 'wss://YOURCOMFYUI_API_ENDPOINT.com/ws';
             this.debugLog(`Connecting to WebSocket: ${wsUrl}`);
             
             this.socket = new WebSocket(wsUrl);
